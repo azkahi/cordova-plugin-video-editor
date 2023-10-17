@@ -19,22 +19,6 @@
         <engine name="cordova" version=">=3.0.0" />
     </engines>
 
-    <!-- android -->
-    <platform name="android">
-        <config-file target="config.xml" parent="/*">
-            <feature name="VideoEditor">
-                <param name="android-package" value="org.apache.cordova.videoeditor.VideoEditor" />
-            </feature>
-        </config-file>
-
-        <!-- add plugin class -->
-        <source-file src="src/android/VideoEditor.java" target-dir="src/org/apache/cordova/videoeditor" />
-        <source-file src="src/android/CustomAndroidFormatStrategy.java" target-dir="src/org/apache/cordova/videoeditor" />
-
-        <framework src="src/android/build.gradle" custom="true" type="gradleReference" />
-
-    </platform>
-
     <!-- ios -->
     <platform name="ios">
         <config-file target="config.xml" parent="/*">

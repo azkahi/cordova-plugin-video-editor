@@ -8,7 +8,6 @@
   "cordova": {
     "id": "cordova-plugin-video-editor",
     "platforms": [
-      "android",
       "ios"
     ]
   },
@@ -19,7 +18,6 @@
     "editor",
     "cordova",
     "ecosystem:cordova",
-    "cordova-android",
     "cordova-ios"
   ],
   "repository": {
